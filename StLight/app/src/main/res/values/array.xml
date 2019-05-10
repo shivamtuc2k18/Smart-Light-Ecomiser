@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="day_list">
+        <item>ALL</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thru</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string-array name="dim_list">
+        <item>Dim</item>
+        <item>30%</item>
+        <item>50%</item>
+        <item>70%</item>
+        <item>100%</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/active_text_tv"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_48"
+        android:text="@string/active_txt"
+        style="@style/genericText"
+        android:textColor="@color/active"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inactive_text_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_48"
+        android:text="@string/inactive_txt"
+        style="@style/genericText"
+        android:textColor="@color/inactive"
+
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/active_button"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="@dimen/margin_30"
+    android:text="0"
+    android:background="@color/active"
+    android:layout_below="@id/active_text_tv"
+    android:layout_marginTop="@dimen/margin_10"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inactive_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_30"
+        android:text="0"
+        android:background="@color/inactive"
+        android:layout_below="@id/inactive_text_tv"
+        android:layout_marginTop="@dimen/margin_10"/>
+</RelativeLayout>

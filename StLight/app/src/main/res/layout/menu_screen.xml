@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.stlight.Activity.MenuScreen"
+    >
+
+    <include
+        android:id="@+id/toolbar_device_config"
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="202dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_below="@id/toolbar_device_config"
+        app:srcCompat="@color/blue_joy" />
+
+    <Button
+        android:id="@+id/Numberprofiler"
+        android:layout_width="161dp"
+        android:layout_height="122dp"
+        android:layout_alignLeft="@+id/controllerprofiler"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/controllerprofiler"
+        android:layout_marginTop="219dp"
+        android:onClick="onClick"
+        android:text="Edit Number Details"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/controllerprofiler"
+        android:layout_width="161dp"
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="105dp"
+        android:onClick="onClick"
+        android:text="Edit Controller Details"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp" />
+
+</RelativeLayout>

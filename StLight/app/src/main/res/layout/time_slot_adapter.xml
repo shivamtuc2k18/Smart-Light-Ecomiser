@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:layout_weight="5">
+
+    <TextView
+        android:text="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sl_number"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/dayList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/st_time_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="4:15" />
+
+    <TextView
+        android:text="5:30"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_time_tv"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="40%"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dim_tv"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+          android:id="@+id/delete_icon"
+        android:src="@android:drawable/ic_delete"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

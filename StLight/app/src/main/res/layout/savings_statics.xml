@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    >
+
+
+    <TextView
+        android:id="@+id/tc_tv"
+        style="@style/genericText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_18"
+        android:text="TC: 0Kwh" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ec_tv"
+         android:layout_marginLeft="@dimen/margin_18"
+        android:text="EC: 0Kwh"
+        style="@style/genericText"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_tv"
+        android:layout_marginLeft="@dimen/margin_18"
+        android:text="HeartBeat"
+        style="@style/genericText"
+
+        />
+</LinearLayout>

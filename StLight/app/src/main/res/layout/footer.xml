@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_10"
+    android:weightSum="3">
+
+
+<Button
+    android:layout_width="0dp"
+    android:layout_height="@dimen/margin_48"
+    android:id="@+id/home_footer_button"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/button_bg"
+    android:layout_weight="1"
+   android:text="@string/home_footer"
+    style="@style/genericText"
+    />
+
+<Button
+    android:layout_width="0dp"
+    android:layout_height="@dimen/margin_48"
+    android:layout_weight="1"
+    android:text="@string/devices_footer"
+    android:id="@+id/devices_footer_btn"
+    style="@style/genericText"
+    android:background="@drawable/button_bg"
+    />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="@dimen/margin_48"
+        android:layout_weight="1"
+        android:text="@string/schedule_footer"
+        android:id="@+id/schedule_footer_btn"
+        style="@style/genericText"
+        android:background="@drawable/button_bg"
+        />
+</LinearLayout>

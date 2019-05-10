@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.stlight.Activity.DeviceConfigActivity">
+    <include
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_device_config"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_select_phone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/spinner_bg"
+        android:layout_below="@id/toolbar_device_config"
+        />
+
+    <EditText
+        android:id="@+id/config_device_number_edt"
+        style="@style/EditTextTheme"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/spinner_select_phone"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/device_number_hint"
+        android:inputType="phone"
+        android:lines="1"
+        android:paddingLeft="10dp"
+        android:visibility="gone" />
+    <Spinner
+        android:id="@+id/spinner_select_device"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/spinner_bg"
+        android:layout_below="@id/config_device_number_edt"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/spinner_select_device"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/device_name_hint"
+        android:id="@+id/config_device_name_edt"
+        android:paddingLeft="10dp"
+        style="@style/EditTextTheme"
+        android:lines="1"
+        android:visibility="gone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/config_device_name_edt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter old number"
+        android:id="@+id/config_device_old_Number_edt"
+        android:paddingLeft="10dp"
+        style="@style/EditTextTheme"
+        android:lines="1"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/config_device_old_Number_edt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter the number to delete"
+        android:id="@+id/config_device_number_dlt"
+        android:paddingLeft="10dp"
+        style="@style/EditTextTheme"
+        android:lines="1"
+        android:visibility="gone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/config_device_number_dlt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter the new number to add"
+        android:id="@+id/config_device_number_add"
+        android:paddingLeft="10dp"
+        style="@style/EditTextTheme"
+        android:lines="1"
+        android:visibility="gone"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinner_select_type"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/config_device_number_add"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/spinner_bg" />
+
+    <Spinner
+        android:id="@+id/spinner_select_Hour"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/spinner_select_type"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/spinner_bg"
+        android:visibility="gone"/>
+
+    <Button
+        android:text="@string/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_select_Hour"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/submit_btn"
+        style="@style/ButtonTheme"
+        />
+
+    <Button
+        android:text="@string/add_new_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submit_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/add_new_btn"
+        style="@style/ButtonTheme"/>
+
+    <include
+        layout="@layout/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3">
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:inputType="time"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:id="@+id/st_time_edt"
+        android:hint="@string/st_time"
+        style="@style/EditTextTheme"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:lines="1"
+        android:focusable="false"/>
+
+
+
+    <EditText
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:inputType="time"
+        android:ems="10"
+       android:gravity="center"
+        android:id="@+id/ed_time_edt"
+        android:hint="@string/ed_time"
+        style="@style/EditTextTheme"
+        android:layout_marginLeft="5dp"
+        android:focusable="false"
+        android:lines="1"/>
+
+    <Spinner
+        android:id="@+id/spinner_dim"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/spinner_bg"
+        />
+
+
+
+</LinearLayout>

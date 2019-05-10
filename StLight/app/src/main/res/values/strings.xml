@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">StLight</string>
+    <string name="actual_consumption">Actual Consumption</string>
+    <string name="expected_consumption">Expected Consumption</string>
+    <string name="savings">Savings</string>
+    <string name="phone_number_hint">Enter Phone Number</string>
+    <string name="device_name_hint">Enter Device Name</string>
+    <string name="device_number_hint">Enter Device Number</string>
+    <string name="add_btn">Add</string>
+    <string name="next_btn">Next</string>
+    <string name="phone_number_text">Please enter PhoneNumber/DeviceName</string>
+    <string name="deviceText">Device Name</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="start_date_toast">Please Enter Start Date</string>
+    <string name="list_of_days_txt">List of Days</string>
+    <string name="st_time">Start Time</string>
+    <string name="ed_time">End Time</string>
+    <string name="st_time_toast">Please StartTime</string>
+    <string name="valid_data_toast">Please enter valid data</string>
+    <string name="valid_time_toast">Please enter valid time</string>
+    <string name="schedule_btn">Schedule</string>
+    <string name="sms_permission">Please enable SMS permissions to Schedule Message</string>
+    <string name="device_details">Device Details</string>
+    <string name="dialog_text">Please wait scheduling SMS</string>
+    <string name="statistics_header_txt">Statistics</string>
+    <string name="active_txt">Active</string>
+    <string name="inactive_txt">Inactive</string>
+    <string name="devices_footer">Devices</string>
+    <string name="schedule_footer">Schedule</string>
+    <string name="status">Status</string>
+    <string name="home_footer">Home</string>
+
+    <string name="tc">TC :</string>
+    <string name="ec">EC :</string>
+    <string name="title_activity_device_config">DeviceConfigActivity</string>
+    <string name="device_config_title">Device Configuration</string>
+    <string name="submit">Submit</string>
+    <string name="updated_number_hint">Enter old Number</string>
+    <string name="update_name_hint">Enter New Number</string>
+    <string name="add_new_btn">Add New Device</string>
+</resources>

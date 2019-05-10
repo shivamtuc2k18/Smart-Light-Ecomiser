@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/startDate_edt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:focusable="false"
+        android:hint="@string/start_date"
+        android:inputType="date"
+        android:textSize="14sp"
+        android:paddingLeft="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        style="@style/EditTextTheme"
+        android:lines="1"/>
+
+    <EditText
+        android:id="@+id/endDate_edt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/end_date"
+        android:inputType="date"
+        android:paddingLeft="8dp"
+        android:focusable="false"
+       android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        style="@style/EditTextTheme"
+        android:lines="1"/>
+</LinearLayout>
